@@ -5,7 +5,7 @@ React 练习项目
 1. 克隆代码：
 
 ```
-git clone https://github.com/eyes487/my-app.git
+git clone https://github.com/eyes487/react-app.git
 ```
 
 2. 进入项目根目录并安装依赖：
