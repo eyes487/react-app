@@ -1,14 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Login from './page/login'
+import "./static/iconfont/iconfont.css";
+import Routes from './Routes/index'
 
 function App() {
-  return (
-    <div className="App">
-      <Login></Login>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;

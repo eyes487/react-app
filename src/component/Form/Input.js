@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './index.less'
+import './index.scss'
 import {FormContext} from './context'
 
 export default class Input extends Component {
@@ -7,11 +7,11 @@ export default class Input extends Component {
         const {type,placeholder,name,onChange} = this.props;
         
         return (
-            <div className={styles.inputItem}>
+            <div className="inputItem">
                 <input 
                     type={type}
                     name={name}
-                    className={styles.input} 
+                    className="input" 
                     placeholder={placeholder}
                     onChange={onChange}
                 ></input>

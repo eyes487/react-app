@@ -1,0 +1,66 @@
+.homePage{
+    background-color: #eee;
+    .searchWrapper{
+        background: #ff5000;
+        padding: 10px;
+        position: relative;
+        .searchIcon{
+            position: absolute;
+            top: 12px;
+            left: 15px;
+            font-size: 26px;
+        }
+        .search{
+            width: calc(100% - 40px);
+            padding: 0 10px;
+            padding-left: 30px;
+            height: 30px;
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            background: #eee;
+        }
+    }
+    .itemWrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+        
+        .item{
+            width: 48%;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            .desc{
+                font-size: 12px;
+                padding: 0 10px;
+            }
+            .operate{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .price{
+                    color: #ff5000;
+                    font-size: 18px;
+                    margin: 5px
+    
+                }
+                .onAddCart{
+                    color: #fff;
+                    border: none;
+                    padding: 6px;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    background-color: #ff5000;
+                }
+            }
+        }
+    }
+    
+}

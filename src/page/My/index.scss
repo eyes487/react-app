@@ -1,0 +1,15 @@
+.head_sculpture{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;;
+    }
+}
+.username{
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,15 @@
+.orderPage{
+    .noData{
+        padding-top: 100px;
+        img{
+            display: block;
+            width: 100px;
+            margin-left: calc(50% - 50px);
+        }
+        .noData-text{
+            text-align: center;
+            line-height: 50px;
+            font-size: 16px;
+        }
+    }
+}
